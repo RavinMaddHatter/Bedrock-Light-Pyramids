@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "torch light area",
+    "description": "light try 2 torches",
+    "uuid": "6ccba7c0-e61b-4dcf-b5d1-ded2665e609f",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "6f748fd5-10de-5564-b130-e23d704da1e0",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

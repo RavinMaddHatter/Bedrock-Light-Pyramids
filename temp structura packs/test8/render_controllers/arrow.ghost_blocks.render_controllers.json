@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.arrow.ghost_blocks": {
+      
+      "materials": [
+        {
+          "*": "Material.ghost_blocks"
+        }
+      ],
+	  "geometry": "geometry.arrow.ghost_blocks",
+      "textures": [ "texture.arrow.ghost_blocks" ],
+      "filter_lighting": true
+    }
+  }
+}

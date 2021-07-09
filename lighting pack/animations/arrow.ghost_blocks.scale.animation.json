@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.arrow.ghost_blocks.scale": {
+      "loop": true,
+      "bones": {
+        "ghost_blocks_rot": {
+          "scale": 16.0,
+		  "position":[
+			"(6+(query.position(0)+math.abs(query.position(0)))/(query.position(0)*2))*16 - ((query.position(0) - math.trunc(query.position(0))) * 16 +8)",
+			"-7*16 - (query.position(1)- math.trunc(query.position(1)))*16",
+			"-(6+(query.position(2)+math.abs(query.position(2)))/(query.position(2)*2))*16 + (query.position(2) - math.trunc(query.position(2))) * 16 +8"]
+		  
+        }
+      }
+    }
+  }
+}
